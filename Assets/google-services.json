@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1023327980970",
+    "project_id": "twoplayergame-916da",
+    "storage_bucket": "twoplayergame-916da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023327980970:android:6b42b8ca2724c9b79defd3",
+        "android_client_info": {
+          "package_name": "com.onechain.pawsandclaws"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1023327980970-egk390om4lfvso5be28m0krim1q75ndp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCePeiByL7bOZzeT66saGVm3AINuK6xrqg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1023327980970-egk390om4lfvso5be28m0krim1q75ndp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1023327980970-pma637k0ud83kmv0ag875v63503cil3d.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.onechain.pawsandclaws"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

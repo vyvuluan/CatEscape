@@ -1,0 +1,116 @@
+shiba.png
+size:2014,1320
+filter:Linear,Linear
+pma:true
+Body
+bounds:601,224,511,450
+offsets:0,10,511,460
+rotate:90
+Group 706
+bounds:2,210,597,1108
+offsets:1,1,599,1110
+Hand L1
+bounds:1712,965,264,353
+Hand L2
+bounds:1502,2,208,275
+Hand L3
+bounds:1834,348,178,171
+Hand R1
+bounds:654,12,210,341
+offsets:0,12,210,353
+rotate:90
+Hand R2
+bounds:1744,521,195,232
+rotate:90
+Hand R3
+bounds:1561,739,184,168
+offsets:1,2,188,171
+Leg L1
+bounds:314,9,174,199
+offsets:1,1,178,201
+Leg L2
+bounds:1561,909,94,134
+offsets:1,1,98,136
+rotate:90
+Leg L3
+bounds:1670,508,101,60
+offsets:1,1,103,62
+rotate:90
+Leg R1
+bounds:1561,1091,147,227
+offsets:1,1,151,229
+Leg R2
+bounds:1561,1005,84,143
+offsets:1,1,86,145
+rotate:90
+Leg R3
+bounds:1712,39,98,55
+offsets:1,1,100,57
+rotate:90
+Stick
+bounds:1053,261,474,307
+rotate:90
+Upper body
+bounds:601,737,581,547
+offsets:0,8,581,555
+rotate:90
+ear
+bounds:1670,611,126,72
+offsets:1,3,128,76
+rotate:90
+go1
+bounds:1712,139,166,102
+offsets:1,1,168,104
+rotate:90
+go2
+bounds:141,6,202,171
+offsets:1,1,204,173
+rotate:90
+go3
+bounds:2,3,205,137
+offsets:1,1,207,139
+rotate:90
+hat 1
+bounds:997,12,210,133
+offsets:1,1,212,135
+rotate:90
+hat 2
+bounds:1132,111,29,84
+offsets:0,0,31,84
+mat
+bounds:1978,1232,86,27
+rotate:90
+matgian
+bounds:490,9,199,162
+rotate:90
+matthuong
+bounds:1670,307,199,162
+rotate:90
+mieng_gam_gu
+bounds:1053,224,120,35
+offsets:1,1,122,37
+mieng_thuong
+bounds:1132,10,99,27
+offsets:1,1,101,30
+rotate:90
+mui_
+bounds:1132,197,38,25
+offsets:1,1,40,28
+nguoi do
+bounds:1150,739,579,409
+offsets:0,36,579,445
+rotate:90
+tay phai
+bounds:1834,155,191,170
+offsets:0,39,202,209
+rotate:90
+tay trai
+bounds:1747,798,235,165
+offsets:11,39,247,204
+tie 1
+bounds:1175,14,325,245
+tie 2
+bounds:1747,718,78,233
+rotate:90
+tie shadow
+bounds:1362,279,306,458

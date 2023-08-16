@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b2100f861838c04ab72cb72c4dbb143, type: 3}
+  m_Name: Map_6
+  m_EditorClassIdentifier: 
+  mapId: 6
+  distance: 100
+  type: 0
+  items:
+  - type: 3
+    pos: 20
+    isSpawn: 0
+  - type: 22
+    pos: 20
+    isSpawn: 1
+  - type: 17
+    pos: 40
+    isSpawn: 1
+  - type: 18
+    pos: 60
+    isSpawn: 1
+  - type: 17
+    pos: 80
+    isSpawn: 1
+  - type: 16
+    pos: 100
+    isSpawn: 0
+  enemies:
+  - type: 11
+    timeSpawn: 2.7
+    timeAttack: 1
+    pos: 0
+    number1: 0
+    number2: 0
+  - type: 11
+    timeSpawn: 2.7
+    timeAttack: 2
+    pos: 0
+    number1: 0
+    number2: 0
+  - type: 12
+    timeSpawn: 0
+    timeAttack: 1
+    pos: 0
+    number1: 1
+    number2: 2
+  - type: 29
+    timeSpawn: 2.7
+    timeAttack: 1
+    pos: 15
+    number1: 0
+    number2: 0

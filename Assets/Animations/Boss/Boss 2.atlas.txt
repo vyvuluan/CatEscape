@@ -1,0 +1,41 @@
+Boss 2.png
+size:2023,1004
+filter:Linear,Linear
+pma:true
+Bon cau back
+bounds:2,301,938,701
+offsets:1,1,940,703
+Bon cau front
+bounds:942,413,693,589
+offsets:1,8,695,598
+Mouth base
+bounds:1094,76,194,110
+Neck
+bounds:942,188,223,788
+offsets:0,0,227,788
+rotate:90
+Shađow
+bounds:2,2,297,870
+offsets:1,4,298,876
+rotate:90
+Teeth down
+bounds:874,15,137,73
+offsets:3,0,142,73
+Teeth up
+bounds:1290,130,135,56
+offsets:0,0,136,56
+eye
+bounds:874,90,218,96
+offsets:6,0,230,102
+facebase
+bounds:1637,494,382,508
+hair
+bounds:1732,162,330,289
+rotate:90
+longmayphai
+bounds:874,191,108,66
+offsets:1,1,110,68
+rotate:90
+longmaytrai
+bounds:1427,120,106,66
+offsets:1,1,108,68

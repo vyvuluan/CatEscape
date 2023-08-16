@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_web_client_id">
+  <string name="gcm_defaultSenderId" translatable="false">1023327980970</string>
+  <string name="google_storage_bucket" translatable="false">twoplayergame-916da.appspot.com</string>
+  <string name="project_id" translatable="false">twoplayergame-916da</string>
+  <string name="google_api_key" translatable="false">AIzaSyCePeiByL7bOZzeT66saGVm3AINuK6xrqg</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCePeiByL7bOZzeT66saGVm3AINuK6xrqg</string>
+  <string name="google_app_id" translatable="false">1:1023327980970:android:6b42b8ca2724c9b79defd3</string>
+  <string name="default_web_client_id" translatable="false">1023327980970-egk390om4lfvso5be28m0krim1q75ndp.apps.googleusercontent.com</string>
+</resources>
