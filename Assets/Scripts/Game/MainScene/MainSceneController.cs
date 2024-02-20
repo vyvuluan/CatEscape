@@ -251,8 +251,10 @@ public class MainSceneController : MonoBehaviour
                 Cat cat = (Cat)enemySpawner.EnemyCurrent;
                 cat.StartAnimDetect();
                 yield return new WaitForSeconds(1f);
+                characters[playerCurrent].GameOver();
                 SimplePool.Despawn(enemySpawner.EnemyCurrent.gameObject);
                 enemySpawner.EnemyCurrent = null;
+
             }
         }
         else
@@ -374,6 +376,7 @@ public class MainSceneController : MonoBehaviour
     #region FINISH
     public void FinishMap()
     {
+        characters[playerCurrent].SetAnimation(Constanst.HappyAnim, true);
         StartCoroutine(CouFinishMap());
     }
     private IEnumerator CouFinishMap()

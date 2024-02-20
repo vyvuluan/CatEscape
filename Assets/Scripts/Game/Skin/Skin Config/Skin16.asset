@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Skin16
   m_EditorClassIdentifier: 
   id: 16
-  lvlUnlock: 4
+  lvlUnlock: 8
   skinType: 0
   state: 0
   image: {fileID: 21300000, guid: ef84b32f1aacd6f4abbc64a09fb18a32, type: 3}

@@ -1,4 +1,5 @@
 using DG.Tweening;
+using Spine.Unity;
 using UnityEngine;
 public enum StatePlayer
 {
@@ -6,10 +7,11 @@ public enum StatePlayer
 }
 public class Player : MonoBehaviour
 {
-    [SerializeField] private GameObject playerRun;
-    [SerializeField] private GameObject playerSit;
-    [SerializeField] private GameObject playerSkillBehind;
+    //[SerializeField] private GameObject playerRun;
+    //[SerializeField] private GameObject playerSit;
+    //[SerializeField] private GameObject playerSkillBehind;
     [SerializeField] private BoxCollider2D boxCollider;
+    [SerializeField] private SkeletonAnimation skeletonAnimation;
     private bool isMovePipeOut;
     private bool isMovePipeIn;
     private float timeJump;
@@ -52,16 +54,24 @@ public class Player : MonoBehaviour
         this.timeDrop = timeDrop;
         this.jumpHeight = jumpHeight;
     }
+    public void SetAnimation(string animName, bool isLoop)
+    {
+        skeletonAnimation.AnimationState.SetAnimation(0, animName, isLoop);
+    }
+    public void GameOver()
+    {
+        SetAnimation(Constanst.DieAnim, false);
+    }
     public void Sit()
     {
-        playerRun.SetActive(false);
-        playerSit.SetActive(true);
+        //playerRun.SetActive(false);
+        //playerSit.SetActive(true);
+        SetAnimation(Constanst.HideAnim, true);
         statePlayer = StatePlayer.Sitting;
     }
     public void Run()
     {
-        playerRun.SetActive(true);
-        playerSit.SetActive(false);
+        SetAnimation(Constanst.RunAnim, true);
         statePlayer = StatePlayer.Running;
     }
     public void Jump()
@@ -87,7 +97,7 @@ public class Player : MonoBehaviour
     }
     public void SetSkillBehind(bool status)
     {
-        playerSkillBehind.SetActive(status);
+        //playerSkillBehind.SetActive(status);
     }
     public bool IsPointPlayerInsideCollider(Collider2D collider)
     {
@@ -107,7 +117,7 @@ public class Player : MonoBehaviour
     }
     public void PlayerDropStart()
     {
-        transform.DOMove(new Vector3(0, -0.36f, 0), 0.7f).SetEase(Ease.OutBounce);
+        transform.DOMove(Vector3.zero, 0.7f).SetEase(Ease.OutBounce);
     }
     public void SelectSkin()
     {
@@ -117,4 +127,5 @@ public class Player : MonoBehaviour
             startPos = temp;
         });
     }
+
 }

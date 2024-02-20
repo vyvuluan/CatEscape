@@ -463,8 +463,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c55062be2063e04f9fa0f873bcc3719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 6
-  distance: 230
+  id: 66
+  distance: 210
   type: 0
   itemMaps: []
   enemyMaps: []

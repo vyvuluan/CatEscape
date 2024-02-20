@@ -132,7 +132,7 @@ namespace Services
         }
         public int GetLevel()
         {
-            return PlayerPrefs.GetInt(levelKey, 2);
+            return PlayerPrefs.GetInt(levelKey, 1);
         }
         public void Save()
         {

@@ -71,7 +71,7 @@ public class Cat : Enemy
     {
         StartCoroutine(Shoot());
     }
-    private void SetAnimation(string animName, bool isLoop)
+    public void SetAnimation(string animName, bool isLoop)
     {
         skeletonAnimation.AnimationState.SetAnimation(0, animName, isLoop);
     }
